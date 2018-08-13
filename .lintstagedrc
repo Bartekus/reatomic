@@ -1,0 +1,11 @@
+{
+    "linters": {
+      "*.{js, jsx, ts, tsx}": [
+        "npm run lint",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "coverage/**/*"
+    ]
+}
